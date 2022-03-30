@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Converter</title>
+  </head>
+  <body>
+    <h1><span>Conversor de Moeda</span></h1>
+
+    <!-- Cria um formulario -->
+
+    <div>
+      <fieldset class="container">
+        <table>
+          <th>
+            <label>Qual é a taxa?</label>
+            <input type="text" id="taxaConversao" placeholder="0.00" />
+            <button id="confirmTax" onclick="obterTaxa()">CONFIRMAR</button>
+            <button onclick="limpaInput()">LIMPAR TAXA</button>
+          </th>
+        </table>
+        <br />
+        <table>
+          <th>
+            <label>Converter de Reais para Dólar:</label>
+            <input type="text" id="reais" placeholder="$0.00" />
+            <button
+              id="buttonRealDol"
+              type="number"
+              onclick="conversorRealDolar()"
+            >
+              CONVERTER
+            </button>
+            <input type="text" id="outputReal" placeholder="$0.00" />
+          </th>
+        </table>
+        <br />
+        <table>
+          <th>
+            <label>Converter de Dólar para Reais:</label>
+            <input type="text" id="dolar" placeholder="R$0.00" />
+            <button id="buttonDolReal" onclick="conversorDolarReal()">
+              CONVERTER
+            </button>
+            <input type="text" id="outputDolar" placeholder="R$0.00" />
+          </th>
+        </table>
+      </fieldset>
+    </div>
+    <script src="script.js"></script>
+  </body>
+  <html></html>
+</html>
