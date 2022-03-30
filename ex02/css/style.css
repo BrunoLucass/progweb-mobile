@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 body {
   font-family: 'Poppins', sans-serif;
-  background: #fff;
+  background: rgb(212, 212, 212)
+    url('https://static4.depositphotos.com/1016929/320/i/950/depositphotos_3202168-stock-photo-money-background.jpg');
   justify-content: center;
   display: flex;
   align-items: center;
@@ -9,8 +10,14 @@ body {
   text-align: center;
 }
 
+h1{
+  background: rgb(1, 42, 3);
+  margin: 45px;
+  font-weight: bold;
+  font-size: 50px;
+}
 span {
-  color: rgb(13, 124, 9);
+  color: rgba(17, 131, 2, 0.76);
   text-shadow: rgb(0, 0, 0);
 }
 
