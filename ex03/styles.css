@@ -1,0 +1,43 @@
+body {
+  background: linear-gradient(90deg, rgb(12, 11, 17) 0%, rgb(30, 30, 32) 35%, rgb(84, 89, 90) 100%);
+}
+
+
+#box{
+  cursor: pointer;
+  background: linear-gradient(90deg, rgb(72, 72, 73) 0%, rgb(91, 91, 92) 35%, rgb(39, 39, 39) 100%);
+  text-align: center;
+  margin: 200 400 20 400;
+  padding: 10px;
+  border-radius: 15px;
+  }
+  
+  #box:hover{
+  color: rgb(192, 191, 191);
+  }
+  
+  #box:active{
+  color: rgb(250, 250, 250);
+  }
+
+#box2{
+    cursor: pointer;
+    background: linear-gradient(90deg, rgb(85, 85, 93) 0%, rgb(100, 100, 202) 35%, rgb(35, 35, 37) 100%);;
+    text-align: center;
+    margin: 0 400 20 400;
+    padding: 15px;
+    border-radius: 15px;
+    }
+    
+    #box2:hover{
+    color: rgb(192, 191, 191);
+    }
+    
+    #box2:active{
+    color: rgb(250, 250, 250);
+    }
+
+#botao {
+  font-size: 15px;
+  padding: 5px;
+}

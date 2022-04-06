@@ -1,0 +1,25 @@
+body{
+  background: #292929;
+  
+}
+
+.box{
+  background: rgb(67, 67, 67);
+  border-radius: 20px;
+  width: 600px;
+  height: 200px;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  border-width: 15px;
+  
+}
+h1, h2 {
+  color: #fff;
+  text-align: center;
+}
+
+#elemento{
+  text-align: center;
+}
