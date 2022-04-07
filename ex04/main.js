@@ -25,8 +25,6 @@ function criaDiv() {
     console.log(event.target);
     if(event.target.classList[0] == 'item-count'){
         const item = event.target;
-        //const count = item.querySelector('.count');
-        //item.getElementById('count');
         const count = item.children[1];
         count.innerHTML = parseInt(count.innerHTML) + 1;
     } else{
